@@ -20,7 +20,7 @@ Optimize my search by giving temporary token when query is called, so next time 
 
 ANSWER:
 a. If the client does not send account id, I would than compare the next most unique items within JSON file. (e.g Name, email address, date of birth)
-b. I would first find JSON records that hold most similar values, and than using a account id of a similar JSON records, analyze user\'92s history and compare the result. (e.g if User lived in Main Street of Centerville, California, and if updated information shares similar value except user\'92s address than I could assume that user has updated his address however due to a data corruption account_id was not added correctly)
+b. I would first find JSON records that hold most similar values, and than using a account id of a similar JSON records, analyze user's history and compare the result. (e.g if User lived in Main Street of Centerville, California, and if updated information shares similar value except user\'92s address than I could assume that user has updated his address however due to a data corruption account_id was not added correctly)
 
 4. If the view gets very large (can no longer fit into memory), how can we modify it to ensure we\'92re still able to look up examples?
 

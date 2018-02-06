@@ -21,7 +21,7 @@ public class Main {
 
         /*
         takes account_id as a input, and outputs the most recent PII
-        Input -> account_id (long)
+        Input -> account_id (long), and file directory
         output -> the most recent PII (JSONObject)
          */
 
